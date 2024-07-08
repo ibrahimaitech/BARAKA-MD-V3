@@ -1,9 +1,9 @@
 {
-  "name":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V5.0.0",
-  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables accordingly. ",
+  "name":"BMW-X5MD",
+  "description":"bot whatsapp développé by Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository":"https://github.com/Beltahtech/Beltah-MD",
+  "logo":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
+  "repository":"https://github.com/ibrahimaitech/BMW-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
+      "value":"BMW-XMD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+      "value":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
       "required":false
        
      },
@@ -53,20 +53,18 @@
       "required":false
     }
 	,
-    "HEROKU_APY_KEY": {
-    "description": "insert your heroku api-key ",
-     "value":"HRKU-8c311194-cd14-430a-a93c-1cdd8b9ea8c8",
-	"required" :true
+    "HEROKU_API_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
-     "value":"",
-	"required" :true
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :false
     }  
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID, the code you received after pairing code",   
+      "description":"put your session ID , the code you receive after scanning Qr code",   
       "value":"",
       "required":true
       
@@ -76,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltah Tech 254🇰🇪"
+    "value": "𝑴𝒓 𝑰𝒃𝒓𝒂𝒉𝒊𝒎"
   },
-    "OWNER_NUMBER":
+    "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254114141192"
+    "value": "+254739937062,254710772666"
   },
     "WARN_COUNT":
   {
@@ -98,32 +96,40 @@
     "value": "yes"
   },
   "PRESENCE":{
-    "description":"Mark your presence: 1 for always online.2 to indicate that you are currently typing a message.3 to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
-    "value":"",  
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
-    "required": false
-  },
-  "PM_CHATBOT": {
-      "description": "Put yes if you want the bot to automatically respond to messages in private",
-      "required": false,
-      "value": "no"
-    }
+    "value": "yes",
+        "required": false
+  }
   },
 
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+
   "formation": {
-		"worker": {
-			"quantity": 1,
-			"size": "basic"
-		}
-	},
+                "worker": {
+                        "quantity": 1,
+                        "size": "basic"
+                }
+        },
 
   "addons":[
     {
-      "plan":"heroku-postgresql:essential-0"
+      "plan":"heroku-postgresql"
     }
   ]
-}
+     }
