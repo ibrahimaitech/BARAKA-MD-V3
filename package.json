@@ -1,23 +1,23 @@
 {
-  "name": "beltah-md",
+  "name": "bmw-md",
   "version": "1.0.0",
   "description": "",
-  "main": "beltah.js",
+  "main": "bmw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node beltah.js",
-    "beltah": "pm2 start beltah.js --attach --max-memory-restart 490M",
+    "s": "node bmw.js",
+    "beltah": "pm2 start bmw.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "Beltah",
+    "Bmw",
     "whatsapp",
     "whatsapp-bot",
-    "Faouz995"
+    "bmw-md-bot"
   ],
-  "author": "Beltah Tech Team",
+  "author": "Mega tech",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
