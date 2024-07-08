@@ -41,8 +41,9 @@ const date = moment().format('DD/MM/YYYY');
 ╏✰▏ *Time* : ${temps} 
 ╏✰▏ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ╏✰▏ *Version* : *8.0.6*
-╰──────────────────❒${readmore}`;
- let menuMsg=`  
+╰──────────────────❒
+`;
+ let menuMsg=`${readmore}  
 ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
 ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
 ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ 
