@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/kingibrahimtech/Bmw-md-bot /root/bmw
+RUN git clone https://github.com/ibraahadam/BMW-MD /root/bmw
 WORKDIR /root/bmw/
 
 
