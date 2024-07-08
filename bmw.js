@@ -818,10 +818,10 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("Bmw Md is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Bmw Commands ...\n");
-                fs.readdirSync(__dirname + "/beltah").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/bmw").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/beltah/" + fichier);
+                            require(__dirname + "/bmw/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
