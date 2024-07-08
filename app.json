@@ -1,9 +1,9 @@
 {
-  "name":"BMW-X5MD",
-  "description":"bot whatsapp développé by Ibrahim adams",
+  "name":"BMW-MD",
+  "description":"Best whatsapp bot developed by Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
-  "repository":"https://github.com/ibrahimaitech/BMW-MD",
+  "repository":"https://github.com/ibraahadam/BMW-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BMW-XMD",
+      "value":"BMW-MD",
       "required":false
 
     } ,
