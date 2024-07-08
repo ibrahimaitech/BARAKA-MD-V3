@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Bmw",
+    "bmw",
     "whatsapp",
     "whatsapp-bot",
     "bmw-md-bot"
   ],
-  "author": "Mega tech",
+  "author": "Ibrahim Adams",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
