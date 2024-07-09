@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝑴𝒓 𝑰𝒃𝒓𝒂𝒉𝒊𝒎"
+    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
   },
     "NUMERO_OWNER":
   {
@@ -107,7 +107,7 @@
   }
   },
 
-  "buildpacks": [
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
@@ -119,17 +119,14 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ],
-
   "formation": {
-                "worker": {
-                        "quantity": 1,
-                        "size": "basic"
-                }
-        },
-
-  "addons":[
-    {
-      "plan":"heroku-postgresql"
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
     }
-  ]
-     }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+	    ]
