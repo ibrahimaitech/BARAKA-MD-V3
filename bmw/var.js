@@ -1,6 +1,6 @@
 const {
-  king
-} = require("../france/king");
+  zokou
+} = require("../framework/zokou");
 const s = require("../set");
 const fs = require('fs');
 function getDescriptionFromEnv(_0x540f38) {
@@ -11,7 +11,7 @@ function getDescriptionFromEnv(_0x540f38) {
   return _0x7ed924 && _0x7ed924.description ? _0x7ed924.description : "The environment variable description was not found.";
 }
 king({
-  'nomCom': "settings",
+  'nomCom': "getallvar",
   'categorie': 'HEROKU'
 }, async (_0x4175bd, _0x165dc2, _0x4c72c7) => {
   const {
@@ -27,30 +27,30 @@ king({
   ;
   let _0x1033ce = [{
     'nom': "AUTO_VIEW_STATUS",
-    'choix': ['on', "off"]
+    'choix': ['yes', "no"]
   }, {
     'nom': "AUTO_SAVE_STATUS",
-    'choix': ['on', "off"]
+    'choix': ['yes', "no"]
   }, {
     'nom': "PM_PERMIT",
-    'choix': ['on', "off"]
+    'choix': ['yes', "no"]
   }, {
-    'nom': "BOT_MODE",
-    'choix': ["public", "private"]
+    'nom': "PUBLIC_MODE",
+    'choix': ["yes", "no"]
   }, {
     'nom': 'STARTING_MESSAGE',
-    'choix': ['on', "off"]
+    'choix': ['yes', "no"]
   }, {
     'nom': "AUTO_READ_MESSAGES",
-    'choix': ['on', "off"]
+    'choix': ['yes', "no"]
   }, {
     'nom': 'PRESENCE',
-    'choix': ["always online", "typing", "recording", "nothing"]
+    'choix': ["1", "2", "3", ""]
   }, {
     'nom': "CHAT_BOT",
-    'choix': ['on', "off"]
+    'choix': ['yes', "no"]
   }];
-  let _0x514865 = "    ╭──────༺♡༻──────╮\n              Flash-Md Settings\n    ╰──────༺♡༻──────╯\n\n";
+  let _0x514865 = "    ╭──────BMW──────╮\n              Flash-Md Settings\n    ╰──────༺♡༻──────╯\n\n";
   for (v = 0x0; v < _0x1033ce.length; v++) {
     _0x514865 += v + 0x1 + "- *" + _0x1033ce[v].nom + "*\n";
   }
@@ -72,7 +72,7 @@ king({
     nom: _0x110314,
     choix: _0x4c58c5
   } = _0x1033ce[_0x52a975];
-  let _0x48d759 = "    ╭──────༺♡༻──────╮\n              Flash-Md settings\n    ╰──────༺♡༻──────╯\n\n";
+  let _0x48d759 = "    ╭──────BMW──────╮\n              BMW VARS\n    ╰──────༺♡༻──────╯\n\n";
   _0x48d759 += "*Variable Name* :" + _0x110314 + "\n";
   _0x48d759 += "*Description* :" + getDescriptionFromEnv(_0x110314) + "\n\n";
   _0x48d759 += "┌────── ⋆⋅☆⋅⋆ ──────┐\n\n";
