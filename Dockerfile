@@ -9,16 +9,16 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/ibraahadam/BMW-MD  /root/BmwMD
+RUN git clone https://github.com/ibrahimaitech/BMW-MD.git  /root/BmwMD
 WORKDIR /root/bmwmd/
 
 
 COPY package.json .
 RUN npm install pm2 -g
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "ibrahim.js"]
+CMD ["node", "ibrahim.js"]
