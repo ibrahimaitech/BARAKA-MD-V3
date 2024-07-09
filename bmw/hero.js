@@ -102,7 +102,7 @@ zokou({
   await _0x52092f("That Heroku variable is changing, The bot is restarting....");
 });
 function changevars(_0x423587, _0x4b1735) {
-  king({
+  zokou({
     'nomCom': _0x423587,
     'categorie': "HEROKU"
   }, async (_0x48d756, _0x44cccc, _0x134f15) => {
