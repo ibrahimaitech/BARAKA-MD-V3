@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*BMW MD IMPORTANT INFO* 
+   *BMW MD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
 > https://github.com/ibrahimaitech/BMW-MD
@@ -43,17 +43,17 @@ const date = moment().format('DD/MM/YYYY');
 > https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
->https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠
-❒───────────────────❒
-│❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠│▸ *DEV* : *Ibrahim Adams*
-│❒⁠⁠⁠⁠╰─────────────────❒
+> https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠
+╭───────────────────❒
+│❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❒⁠⁠⁠⁠ *DEV* : *Ibrahim Adams*
+⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-❒─❒𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺 𝑺𝑪𝑰𝑬𝑵𝑪𝑬❒─❒
+     𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺 𝑺𝑪𝑰𝑬𝑵𝑪𝑬
 
-❒───────────────────❒`;
+❒────────────────────❒`;
 
    var lien = mybotpic();
 
