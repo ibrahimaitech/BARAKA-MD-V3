@@ -15,9 +15,9 @@
     "Bmw-md",
     "whatsapp",
     "whatsapp-bot",
-    "ibrahimaitech"
+    "bmw-md-boy"
   ],
-  "author": "ibrahimartech",
+  "author": "ibraahadam",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
