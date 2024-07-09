@@ -1,12 +1,14 @@
 {
-  "name": "Bmw-md",
+  "name": "zokou-2.0",
   "version": "2.0.0",
   "description": "",
   "main": "ibrahim.js",
+  "type": "bmw",
   "scripts": {
     "test": "node ibrahim.js",
     "s": "node ibrahim.js",
-    "bmwmd": "pm2 start ibrahim.js --attach --max-memory-restart 490M",
+    "zokou": "pm2 start ibrahim.js --attach",
+    "web": "pm2 start ibrahim.js --attach",
     "c": "tsc"
   },
   "keywords": [
