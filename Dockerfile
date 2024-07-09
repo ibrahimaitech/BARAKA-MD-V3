@@ -15,10 +15,10 @@ WORKDIR /root/bmwmd/
 
 COPY package.json .
 RUN npm install pm2 -g
-RUN npm install --legacy-peer-deps
+RUN npm install
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "ibrahim.js"]
+CMD ["npm", "run" , "ibrahim.js"]
