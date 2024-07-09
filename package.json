@@ -4,7 +4,7 @@
   "description": "",
   "main": "ibrahim.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ibrahim.js",
     "s": "node ibrahim.js",
     "bmwmd": "pm2 start ibrahim.js --attach --max-memory-restart 490M",
     "c": "tsc"
