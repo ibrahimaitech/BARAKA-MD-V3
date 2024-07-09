@@ -32,7 +32,7 @@ zokou(
 
 zokou(
     {
-        nomCom : "getallvar",
+        nomCom : "allvar",
         categorie : "heroku"
     }, async (dest , zk , commandeOptions) =>{
 
