@@ -1,9 +1,9 @@
 {
-  "name":"BMW-MD",
-  "description":"Best whatsapp bot developed by Ibrahim adams",
+  "name":"BARAKA-MD-V2",
+  "description":"Best whatsapp bot developed by Baraka bega+Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
-  "repository":"https://github.com/ibraahadam/BMW-MD",
+  "logo":"https://telegra.ph/file/181690a882c6cdc172e31.jpg",
+  "repository":"https://github.com/ibraahadam/BARAKA-MD-V3",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BMW-MD",
+      "value":"BARAKA-MD-V2",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
+      "value":"https://telegra.ph/file/181690a882c6cdc172e31.jpg",
       "required":false
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "𝐌𝐫 𝐛𝐚𝐫𝐚𝐤𝐚"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254739937062,254710772666"
+    "value": "255762190568,255679513639,254710772666"
   },
     "WARN_COUNT":
   {
