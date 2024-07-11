@@ -1,23 +1,23 @@
 {
-  "name": "Bmw-md",
+  "name": "baraka-md",
   "version": "2.0.0",
   "description": "",
-  "main": "ibrahim.js",
+  "main": "baraka.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node ibrahim.js",
-    "bmwmd": "pm2 start ibrahim.js --attach --max-memory-restart 490M",
+    "s": "node baraka.js",
+    "bmwmd": "pm2 start baraka.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "Bmw-md",
+    "baraka-md",
     "whatsapp",
     "whatsapp-bot",
-    "bmw-md-boy"
+    "baraka-md-boy"
   ],
-  "author": "ibraahadam",
+  "author": "Barakabega",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
