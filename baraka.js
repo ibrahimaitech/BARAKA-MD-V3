@@ -167,7 +167,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🌍BMW-MD ONLINE🌍");
+            console.log("\t🌍BARAKA-MD ONLINE🌍");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -806,18 +806,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Bmw is connecting...");
+                console.log("ℹ️ Bot is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Bmw Connected to WhatsApp! ☺️");
+                console.log("✅ Bot Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Bmw Md is Online 🕸\n\n");
+                console.log("Bot Md is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Bmw Commands ...\n");
+                console.log("Loading Bot Commands ...\n");
                 fs.readdirSync(__dirname + "/bmw").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -850,8 +850,8 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =`      ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
 ╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
-❒⁠⁠⁠⁠ *Dev*   : *Ibrahim Adams*   
-❒⁠⁠⁠⁠ *Bot*   : *Bmw md*
+❒⁠⁠⁠⁠ *Dev*   : *Baraka bega*   
+❒⁠⁠⁠⁠ *Bot*   : *Baraka md*
 ❒⁠⁠⁠⁠ *Prefix*: [ ${prefixe} ]
 ╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`;
 
